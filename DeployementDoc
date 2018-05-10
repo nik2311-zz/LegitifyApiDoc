@@ -1,0 +1,12 @@
+Install Ruby,Bundle,MiddleMan
+
+cd to repo
+
+bundle exec middleman build --clean
+
+push the files to docs.takemate s3 bucket.
+
+
+To Update the docs modify the file source/index.html.md
+
+See :https://github.com/lord/slate   for more info
